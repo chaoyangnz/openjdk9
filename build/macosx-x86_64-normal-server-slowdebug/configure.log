@@ -1,0 +1,259 @@
+configure: Configuration created at Wed Jun 28 13:37:51 NZST 2017.
+configure: configure script generated at timestamp 1496926402.
+checking for basename... /usr/bin/basename
+checking for bash... /bin/bash
+checking for cat... /bin/cat
+checking for chmod... /bin/chmod
+checking for cmp... /usr/bin/cmp
+checking for comm... /usr/bin/comm
+checking for cp... /bin/cp
+checking for cut... /usr/bin/cut
+checking for date... /bin/date
+checking for gdiff... no
+checking for diff... /usr/bin/diff
+checking for dirname... /usr/bin/dirname
+checking for echo... /bin/echo
+checking for expr... /bin/expr
+checking for file... /usr/bin/file
+checking for find... /usr/bin/find
+checking for head... /usr/bin/head
+checking for gunzip... /usr/bin/gunzip
+checking for pigz... no
+checking for gzip... /usr/bin/gzip
+checking for ln... /bin/ln
+checking for ls... /bin/ls
+checking for mkdir... /bin/mkdir
+checking for mktemp... /usr/bin/mktemp
+checking for mv... /bin/mv
+checking for nawk... no
+checking for gawk... no
+checking for awk... /usr/bin/awk
+checking for printf... /usr/bin/printf
+checking for rm... /bin/rm
+checking for rmdir... /bin/rmdir
+checking for sh... /bin/sh
+checking for sort... /usr/bin/sort
+checking for tail... /usr/bin/tail
+checking for gtar... no
+checking for tar... /usr/bin/tar
+checking for tee... /usr/bin/tee
+checking for touch... /usr/bin/touch
+checking for tr... /usr/bin/tr
+checking for uname... /usr/bin/uname
+checking for uniq... /usr/bin/uniq
+checking for wc... /usr/bin/wc
+checking for which... /usr/bin/which
+checking for xargs... /usr/bin/xargs
+checking for gawk... no
+checking for mawk... no
+checking for nawk... no
+checking for awk... awk
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for cygpath... no
+checking for greadlink... no
+checking for readlink... /usr/bin/readlink
+checking for df... /bin/df
+checking for cpio... /usr/bin/cpio
+checking for nice... /usr/bin/nice
+checking for pandoc... no
+checking build system type... x86_64-apple-darwin16.6.0
+checking host system type... x86_64-apple-darwin16.6.0
+checking target system type... x86_64-apple-darwin16.6.0
+checking openjdk-build os-cpu... macosx-x86_64
+checking openjdk-target os-cpu... macosx-x86_64
+checking compilation type... native
+checking for top-level directory... /Users/Chao/openjdk9
+checking if custom source is suppressed (openjdk-only)... no
+checking which variant of the JDK to build... normal
+checking which debug level to use... slowdebug
+checking which variants of the JVM to build... server
+checking for xcodebuild... /usr/bin/xcodebuild
+checking for sdk name... 
+checking for sysroot... 
+checking for toolchain path... 
+checking for extra path... 
+checking where to store configuration... in default location
+checking what configuration name to use... macosx-x86_64-normal-server-slowdebug
+checking for apt-get... no
+checking for yum... no
+checking for brew... brew
+checking for gmake... no
+checking for make... /usr/bin/make
+configure: Testing potential make at /usr/bin/make, found using make in PATH
+configure: Using GNU make at /usr/bin/make (version: GNU Make 3.81)
+checking if make --output-sync is supported... no
+checking if find supports -delete... yes
+checking what type of tar was found... bsd
+checking that grep (/usr/bin/grep) -Fx handles empty lines in the pattern list correctly... yes
+checking for unzip... /usr/bin/unzip
+checking for zip... /usr/bin/zip
+checking for ldd... no
+checking for otool... /usr/bin/otool
+checking for greadelf... no
+checking for readelf... no
+checking for dot... no
+checking for hg... /usr/local/bin/hg
+checking for stat... /usr/bin/stat
+checking for time... /usr/bin/time
+checking for dtrace... /usr/sbin/dtrace
+checking for gpatch... no
+checking for patch... /usr/bin/patch
+checking for dsymutil... /usr/bin/dsymutil
+checking for xattr... /usr/bin/xattr
+checking for codesign... /usr/bin/codesign
+checking if openjdk_codesign certificate is present... no
+checking for SetFile... /usr/bin/SetFile
+checking bash version... 3.2.57
+checking if bash supports pipefail... yes
+checking if bash supports errexit (-e)... yes
+checking for pkg-config... no
+checking headless only... no
+checking for graphviz dot... no, cannot generate full docs
+checking for pandoc... no, cannot generate full docs
+checking full docs... no, missing dependencies
+checking if packaged modules are kept... yes (default)
+checking for version string... 9-internal+0-adhoc.Chao.openjdk9
+configure: Found potential Boot JDK using /usr/libexec/java_home 
+checking for Boot JDK... /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home
+checking Boot JDK version... java version "1.8.0_131" Java(TM) SE Runtime Environment (build 1.8.0_131-b11) Java HotSpot(TM) 64-Bit Server VM (build 25.131-b11, mixed mode) 
+checking for java in Boot JDK... ok
+checking for javac in Boot JDK... ok
+checking for javah in Boot JDK... ok
+checking for jar in Boot JDK... ok
+checking for jarsigner in Boot JDK... ok
+checking if Boot JDK supports modules... no
+checking if Boot JDK is 32 or 64 bits... 64
+checking for Build JDK... yes, will use output dir
+configure: Xcode major version: 8
+configure: Using default toolchain clang (clang/LLVM)
+checking for clang... /usr/bin/clang
+checking resolved symbolic links for CC... no symlink
+configure: Using clang C compiler version 8.1.0 [Apple LLVM version 8.1.0 (clang-802.0.42) Target: x86_64-apple-darwin16.6.0 Thread model: posix InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether /usr/bin/clang accepts -g... yes
+checking for /usr/bin/clang option to accept ISO C89... none needed
+checking for clang++... /usr/bin/clang++
+checking resolved symbolic links for CXX... no symlink
+configure: Using clang C++ compiler version 8.1.0 [Apple LLVM version 8.1.0 (clang-802.0.42) Target: x86_64-apple-darwin16.6.0 Thread model: posix InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+checking whether we are using the GNU C++ compiler... yes
+checking whether /usr/bin/clang++ accepts -g... yes
+checking how to run the C preprocessor... /usr/bin/clang -E
+checking how to run the C++ preprocessor... /usr/bin/clang++ -E
+checking for ar... ar
+configure: Rewriting AR to "/usr/bin/ar"
+checking for lipo... /usr/bin/lipo
+checking for strip... strip
+configure: Rewriting STRIP to "/usr/bin/strip"
+checking for nm... nm
+configure: Rewriting NM to "/usr/bin/nm"
+checking for gobjdump... no
+checking for objdump... objdump
+configure: Rewriting OBJDUMP to "/usr/bin/objdump"
+checking for jtreg... no
+checking for jtreg test harness... no, not found
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking stdio.h usability... yes
+checking stdio.h presence... yes
+checking for stdio.h... yes
+checking size of int *... 8
+checking for target address size... 64 bits
+checking whether byte ordering is bigendian... no
+checking if the C compiler supports "-m64"... yes
+checking if the C++ compiler supports "-m64"... yes
+checking if both compilers support "-m64"... yes
+checking if native warnings are errors... no
+checking what type of native debug symbols to use... internal
+checking for dtrace tool... /usr/sbin/dtrace
+checking sys/sdt.h usability... yes
+checking sys/sdt.h presence... yes
+checking for sys/sdt.h... yes
+checking if dtrace should be built... yes, dependencies present
+checking if Hotspot gtest unit tests should be built... yes
+checking cups/cups.h usability... yes
+checking cups/cups.h presence... yes
+checking for cups/cups.h... yes
+checking cups/ppd.h usability... yes
+checking cups/ppd.h presence... yes
+checking for cups/ppd.h... yes
+configure: Found freetype include files at /usr/local/include/freetype2 using --with-freetype
+checking for freetype includes... /usr/local/include/freetype2
+checking for freetype libraries... /usr/local/lib
+checking if we can compile and link with freetype... yes
+checking if we should bundle freetype... yes
+checking for which libjpeg to use... bundled
+checking for which giflib to use... bundled
+checking for which libpng to use... bundled
+checking for compress in -lz... yes
+checking for which zlib to use... system
+checking for which lcms to use... bundled
+checking for cos in -lm... yes
+checking for dlopen in -ldl... yes
+checking if jdk.internal.vm.compiler should be built... no
+checking if aot should be enabled... no
+checking if elliptic curve crypto implementation is present... yes
+checking if jtreg failure handler should be built... no, missing jtreg
+checking if the CDS classlist generation should be enabled... yes
+checking for number of cores... 8
+checking for memory size... 16384 MB
+checking for appropriate number of jobs to run in parallel... 8
+checking flags for boot jdk java command ...  -Duser.language=en -Duser.country=US 
+checking flags for boot jdk java command for big workloads...  -Xms64M -Xmx1600M -XX:ThreadStackSize=1536
+checking flags for bootcycle boot jdk java command for big workloads... -Xms64M -Xmx1600M -XX:ThreadStackSize=1536
+checking flags for boot jdk java command for small workloads...  -XX:+UseSerialGC -Xms32M -Xmx512M -XX:TieredStopAtLevel=1
+checking whether to use sjavac... no
+checking whether to use javac server... yes
+checking If precompiled header is enabled... yes
+checking is ccache enabled... no
+configure: WARNING: The following variables might be unknown to configure:  SEPARATED_DEBUGINFO_FILES 
+checking if build directory is on local disk... yes
+checking JVM features for JVM variant 'server'... all-gcs cds compiler1 compiler2 dtrace fprof jni-check jvmci jvmti management nmt services vm-structs
+configure: creating /Users/Chao/openjdk9/build/macosx-x86_64-normal-server-slowdebug/configure-support/config.status
+config.status: creating /Users/Chao/openjdk9/build/macosx-x86_64-normal-server-slowdebug/spec.gmk
+config.status: creating /Users/Chao/openjdk9/build/macosx-x86_64-normal-server-slowdebug/bootcycle-spec.gmk
+config.status: creating /Users/Chao/openjdk9/build/macosx-x86_64-normal-server-slowdebug/buildjdk-spec.gmk
+config.status: creating /Users/Chao/openjdk9/build/macosx-x86_64-normal-server-slowdebug/compare.sh
+config.status: creating /Users/Chao/openjdk9/build/macosx-x86_64-normal-server-slowdebug/Makefile
+
+====================================================
+A new configuration has been successfully created in
+/Users/Chao/openjdk9/build/macosx-x86_64-normal-server-slowdebug
+using configure arguments '--with-freetype-include=/usr/local/include/freetype2 --with-freetype-lib=/usr/local/lib --with-debug-level=slowdebug --with-native-debug-symbols=internal --disable-warnings-as-errors SEPARATED_DEBUGINFO_FILES=false'.
+
+Configuration summary:
+* Debug level:    slowdebug
+* HS debug level: debug
+* JDK variant:    normal
+* JVM variants:   server
+* OpenJDK target: OS: macosx, CPU architecture: x86, address length: 64
+* Version string: 9-internal+0-adhoc.Chao.openjdk9 (9-internal)
+
+Tools summary:
+* Boot JDK:       java version "1.8.0_131" Java(TM) SE Runtime Environment (build 1.8.0_131-b11) Java HotSpot(TM) 64-Bit Server VM (build 25.131-b11, mixed mode)  (at /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home)
+* Toolchain:      clang (clang/LLVM from Xcode 8.3.3)
+* C Compiler:     Version 8.1.0 (at /usr/bin/clang)
+* C++ Compiler:   Version 8.1.0 (at /usr/bin/clang++)
+
+Build performance summary:
+* Cores to use:   8
+* Memory limit:   16384 MB
+
+The following warnings were produced. Repeated here for convenience:
+WARNING: The following variables might be unknown to configure:  SEPARATED_DEBUGINFO_FILES 
+
